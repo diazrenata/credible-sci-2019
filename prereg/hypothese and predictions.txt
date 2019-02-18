@@ -1,0 +1,28 @@
+Study Information
+
+Title: Re-examining relationships between body Size, energy use, and community structure of small mammals
+(Replication of Ernest 2005, Ecology, Body Size, Energy Use, and Community Structure of Small Mammals: https://doi.org/10.1890/03-3179)
+
+Authors: Renata Diaz
+
+Description: Ernest (2005) examined relationships between the distributions of species' average body sizes and energy use in small mammal communities, using nine open-access small mammal datasets from four sites. She addressed two hypotheses in this space:
+1. The energy equivalence rule suggests that body size-energy use distributions will be uniform, because abundance scales inversely with size.
+2. Species-level body size distributions will be multimodal, with clumps corresponding to resource availability (i.e. some body sizes are better equipped to exploit certain resources; if there are abundant resources available to a certain body size, more species will be that size).
+I will attempt to replicate the original study using both the data originally used and an expanded database of small mammal trapping data from NEON. I will use the original data to attempt a close replication of the original methods, and will then apply the same analysis protocol to the larger, more diverse data now available from NEON. I will not include the original data in the second analysis.
+
+Hypotheses:
+Ernest's findings:
+- The body size-energy use distributions for all communities were significantly different from uniform, evaluated using bootstrap resampling. Empirical distributions were compared to true random uniform distributions with a distribution of overlap index (DOI). This value was compared to the DOIs between 10,000 random distributions drawn from uniform, and the true uniform distribution. High DOI values indicate less overlap. Empirical communities had significantly higher DOI values than the random-uniform communities.
+- Comparing across sites, the body size-energy use distributions for all communities were significantly different from each other, evaluated by comparing the DOIs of bootstrapped distributions for all possible pairs of communities. Again, the empirical DOI was higher than if the communities were the same.
+- None of the species-level body-size distributions were significantly different from uniform, evaluated using a d-corrected Kolgomorov-Smirnov test.
+- Comparing across sites, the species-level body size distributions did not vary significantly, evaluated using two-sample d-corrected Kolgomorov-Smirnov tests on all pairwise combinations of communities.
+
+Specific hypotheses:
+1. Body-size energy distributions for small mammal communities are not uniform (i.e. the "energy equivalence rule" is not supported) and vary between communities.
+2. The species-level body size distributions for small mammal communities is not clumped around modes of resource use, but close to uniform.
+
+Predictions:
+- Body size-energy use distributions will differ significantly from uniform (DOI > DOI from uniform bootstrapped samples).
+- Body-size energy use distributions between communities will differ significantly from each other (DOI > DOI from bootstrapped samples)
+- Species-level body size distributions will not differ significantly from uniform (two-sample delta-corrected K-S test).
+- Species-level body size distributions between communities will not differ significantly from each other (all pairwise combinations, two-sample delta-corrected K-S test)
